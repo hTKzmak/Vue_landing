@@ -3,8 +3,8 @@
         <div class="container" id="first">
             <h1>РЕАЛИЗУЕМ КРУПНЕЙШИЕ <br> ПРОЕКТЫ В РОССИИ</h1>
             <h3>стадионы, газопроводы, мосты, дамбы</h3>
-            <div class="numbersList">
-                <Numbers></Numbers>
+            <div class="YearsList">
+                <YearsItem></YearsItem>
             </div>
         </div>
     </header>
@@ -12,11 +12,11 @@
 
 <script>
 
-import Numbers from './Numbers.vue'
+import YearsItem from './YearsItem.vue'
 
 export default {
     components: {
-        Numbers,
+        YearsItem,
     }
 }
 </script>
@@ -48,7 +48,7 @@ header {
     font-size: 18px;
 }
 
-.numbersList {
+.YearsList {
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -59,7 +59,7 @@ header {
 }
 
 @media screen and (max-width: 1147px) {
-    .numbersList {
+    .YearsList {
         width: 85vw;
         height: 238px;
         gap: 10px;
@@ -68,7 +68,7 @@ header {
 
 @media screen and (max-width: 900px) {
 
-    .numbersList {
+    .YearsList {
         height: 180px;
     }
 
@@ -90,13 +90,13 @@ header {
         font-size: 13px
     }
 
-    .numbersList {
+    .YearsList {
         width: 460px;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .numbersList {
+    .YearsList {
         width: auto;
         height: 150px;
     }
