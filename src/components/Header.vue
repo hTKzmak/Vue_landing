@@ -3,7 +3,7 @@
         <div class="container" id="first">
             <h1>РЕАЛИЗУЕМ КРУПНЕЙШИЕ <br> ПРОЕКТЫ В РОССИИ</h1>
             <h3>стадионы, газопроводы, мосты, дамбы</h3>
-            <div class="YearsList">
+            <div class="yearsList">
                 <YearsItem></YearsItem>
             </div>
         </div>
@@ -48,7 +48,7 @@ header {
     font-size: 18px;
 }
 
-.YearsList {
+.yearsList {
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -59,7 +59,7 @@ header {
 }
 
 @media screen and (max-width: 1147px) {
-    .YearsList {
+    .yearsList {
         width: 85vw;
         height: 238px;
         gap: 10px;
@@ -68,7 +68,7 @@ header {
 
 @media screen and (max-width: 900px) {
 
-    .YearsList {
+    .yearsList {
         height: 180px;
     }
 
@@ -90,13 +90,13 @@ header {
         font-size: 13px
     }
 
-    .YearsList {
+    .yearsList {
         width: 460px;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .YearsList {
+    .yearsList {
         width: auto;
         height: 150px;
     }
