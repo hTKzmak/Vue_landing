@@ -1,23 +1,23 @@
 <template>
   <Header></Header>
   <main>
-    <SecondPart></SecondPart>
-    <Banner></Banner>
+    <ProjectsInfo></ProjectsInfo>
+    <Request></Request>
   </main>
   <Footer></Footer>
 </template>
 
 <script>
 import Header from './components/Header.vue'
-import SecondPart from './components/SecondPart.vue'
-import Banner from './components/Banner.vue'
+import ProjectsInfo from './components/ProjectsInfo.vue'
+import Request from './components/Request.vue'
 import Footer from './components/Footer.vue'
 
 export default {
   components: {
     Header,
-    SecondPart,
-    Banner,
+    ProjectsInfo,
+    Request,
     Footer
   }
 }

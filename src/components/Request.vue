@@ -94,11 +94,11 @@ button:active {
 
 @media screen and (max-width: 500px) {
     .text>h1 {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .text>h3 {
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 </style>

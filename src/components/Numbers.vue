@@ -26,7 +26,7 @@ export default {
 <style>
 .numberBlock {
     width: 190px;
-    height: 186px;
+    /* height: 186px; */
 }
 
 .numberBlock>h1 {
@@ -44,7 +44,6 @@ export default {
 .numberBlock>p {
     color: #999;
     font-size: 18px;
-    margin: 0;
 }
 
 @media screen and (max-width: 900px) {

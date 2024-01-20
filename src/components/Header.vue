@@ -23,7 +23,7 @@ export default {
 
 <style>
 .bgFirst {
-    background-image: url(/src/assets/Rectangle.png);
+    background-image: url(/src/assets/Background.png);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-position: center center;
@@ -60,7 +60,7 @@ header {
 
 @media screen and (max-width: 1147px) {
     .numbersList {
-        width: 864px;
+        width: 85vw;
         height: 238px;
         gap: 10px;
     }
@@ -79,10 +79,6 @@ header {
     #first>h3 {
         font-size: 15px
     }
-
-    .numbersList {
-        width: 667px;
-    }
 }
 
 @media screen and (max-width: 700px) {
@@ -91,7 +87,7 @@ header {
     }
 
     #first>h3 {
-        font-size: 10px
+        font-size: 13px
     }
 
     .numbersList {

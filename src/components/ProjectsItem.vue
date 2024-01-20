@@ -31,6 +31,7 @@ img {
 .projectItem {
     width: 350px;
     height: 578px;
+    text-align: center;
 }
 
 .projectItem_text::before {
@@ -54,5 +55,24 @@ img {
 .projectItem_text>p {
     color: #999;
     font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+    .projectItem {
+        width: 315px;
+    }
+
+    img {
+        width: 312px;
+        height: 337px;
+    }
+
+    .projectItem_text>h2 {
+        font-size: 20px;
+    }
+
+    .projectItem_text>p {
+        font-size: 15px;
+    }
 }
 </style>
